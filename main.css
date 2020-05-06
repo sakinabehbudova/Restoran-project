@@ -1,0 +1,67 @@
+/*Header */
+.header-top {
+background-color: #1E8449;
+}
+ul {
+  list-style: none;
+}
+.social-icons li,.list-items li {
+  display: inline;
+}
+#header a {
+  text-decoration: none !important;
+  color: white;
+}
+.navbar-toggler {
+  margin-left:15.5%;
+  background-color: lightgrey;
+}
+.pos-f-t {
+  color: black;
+}
+#menu {
+  margin-right: 12%;
+  margin-left: 12%;
+}
+#menu1,#menu2,#menu3 {
+  text-align: left;
+  justify-content:flex-start;
+}
+/*Main*/
+.carousel-caption h1 {
+  margin-bottom: 80px !important;
+  font-size: 40px;
+}
+.carousel-caption .btn{
+  margin-bottom:40px;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*aboutUs*/
+#aboutUs {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f8f9fa;
+}
+#aboutUs .fas {
+  color: #4B4638;
+}
+.adress-content {
+  padding-top: 20px;
+}
+#aboutUs a {
+  text-decoration: none;
+  color: black;
+
+}
+/* Menu*/
+#menu {
+  padding-top: 80px;
+}
+#images {
+  padding-top: 30px;
+}
