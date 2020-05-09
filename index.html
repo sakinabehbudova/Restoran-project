@@ -4,22 +4,19 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <title>Website</title>
   </head>
   <body>
     <div id="wrapper">
-      <div id="header">
-        <div class="header-top text-white pt-3">
+      <div id="header" class=" fixed-top text-white pt-4">
           <div class="container">
             <div class="row">
               <div class="col-sm-4">
                 <ul class="list-items">
-                  <li class="list-item ">
-                    <a href="#" class="fas fa-phone-alt">  (+994 12) 345 67 89</a>
-                   </li>
-                   <li class="list-item pl-4">
-                     <a href="#" class="fas fa-map-marker-alt">
+                   <li class="list-item pl-3">
+                       <a href="#" class="fas fa-map-marker-alt">
                       Restoran.az
                      </a>
                    </li>
@@ -28,68 +25,25 @@
               <div class="col-4 offset-sm-4">
                 <div class="social-icons">
                   <ul>
-                    <li class="pl-5">
-                      <a href="#" class="fab fa-twitter fa-lg"></a>
+                    <li >
+                      <a href="#aboutUs">Haqqımızda</a>
                     </li>
-                    <li class="pl-3">
-                      <a href="#" class="fab fa-facebook fa-lg"></a>
+                    <li class="pl-2">
+                      <a href="#restaurant-menu">Menyu</a>
                     </li>
-                    <li class="pl-3">
-                      <a href="#" class="fab fa-instagram fa-lg"></a>
+                    <li class="pl-2">
+                      <a href="#adress">Ünvan</a>
                     </li>
-                    <li class="pl-3">
-                      <a href="#" class="fab fa-youtube fa-lg"></a>
+                    <li class="pl-2">
+                      <a href="#" >Əlaqə</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="header-content">
-          <div class="fluid bg-light">
-            <div class="pos-f-t">
-             <div class="collapse" id="restaurant">
-              <div class="row p-4" id="main-nav">
-               <div class="col-4">
-                <ul class="list-group">
-                  <li class="list-group-item h4"> Content1</li>
-                  <li class="list-group-item">content</li>
-                  <li class="list-group-item">content</li>
-                  <li class="list-group-item">content</li>
-                  <li class="list-group-item">content</li>
-                </ul>
-               </div>
-              <div class="col-4">
-               <ul class="list-group">
-                 <li class="list-group-item h4">Content2</li>
-                 <li class="list-group-item">content</li>
-                 <li class="list-group-item">content</li>
-                 <li class="list-group-item">content</li>
-                 <li class="list-group-item">content</li>
-               </ul>
-              </div>
-              <div class="col-4">
-                <ul class="list-group">
-                  <li class="list-group-item h4">Content3</li>
-                  <li class="list-group-item">content</li>
-                  <li class="list-group-item">content</li>
-                  <li class="list-group-item">content</li>
-                  <li class="list-group-item">content</li>
-                </ul>
-             </div>
-          </div>
-       </div>
-        <nav class="navbar navbar-dark bg-light">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#restaurant" aria-controls="restaurant" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-        </button>
-       </nav>
       </div>
-     </div>
-    </div>
-   </div>
-   <div id="main">
+      <div id="main">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -98,17 +52,17 @@
           </ol>
         <div class="carousel-inner">
          <div class="carousel-item active">
-           <img class="d-block w-100" src="images/picture1.jpeg" height="610px" alt="First slide">
+           <img class="d-block w-100" src="images/picture1.jpeg" height="710px" alt="First slide">
            <div class="carousel-caption d-none d-md-block">
-             <h1>WELCOME</h1>
+             <h1>RESTORAN AZ QONAQLARINI GÖZLƏYİR</h1>
              <button type="button" class="btn btn-warning" name="button">İndi rezerv et</button>
            </div>
          </div>
          <div class="carousel-item">
-          <img class="d-block w-100" src="images/picture2.jpeg" height="610px" alt="Second slide">
+          <img class="d-block w-100" src="images/picture2.jpeg" height="710" alt="Second slide">
          </div>
          <div class="carousel-item">
-          <img class="d-block w-100" src="images/picture3.jpeg" height="610px" alt="Third slide">
+          <img class="d-block w-100" src="images/picture3.jpeg" height="710" alt="Third slide">
          </div>
        </div>
        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -121,49 +75,12 @@
        </a>
       </div>
      </div>
-     <div id="aboutUs">
-       <div class="container text-center">
+     <div id="restaurant-menu">
+       <div class="container text-center" id="menu-header">
          <div class="row">
-           <div class="col-4">
-              <a href="#">
-                <div class="adress">
-                   <i class="fas fa-map-marked-alt fa-3x"></i>
-                 <div class="adress-content">
-                    <p>Bakı <br>
-                      Nizami küç.
-                    </p>
-                  </div>
-                </div>
-              </a>
-           </div>
-           <div class="col-4">
-              <a href="#">
-                <div class="adress">
-                   <i class="fas fa-phone-alt  fa-3x"></i>
-                 <div class="adress-content">
-                    <p> (+994 12) 345 67 89<br>
-                      restoran.az@gmail.com
-                    </p>
-                  </div>
-                </div>
-              </a>
-           </div>
-           <div class="col-4">
-              <a href="#">
-                <div class="adress">
-                  <i class="fas fa-clock fa-3x"></i>
-                 <div class="adress-content">
-                    <p>İş saatımız: <br>
-                      09:00 - 23:00
-                    </p>
-                  </div>
-                </div>
-              </a>
-           </div>
+           <h1>MENYU</h1>
          </div>
        </div>
-     </div>
-     <div id="restaurant-menu">
        <div class="restaurant-menu-top">
        <div class="container">
         <div class="row">
@@ -175,31 +92,31 @@
              <nav>
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-meal-tab" data-toggle="tab" href="#meal" role="tab" aria-controls="meal" aria-selected="true">Yeməklər</a>
+                <a class="nav-item nav-link" id="nav-salad-tab" data-toggle="tab" href="#salad" role="tab" aria-controls="salad" aria-selected="false">Salatlar</a>
                 <a class="nav-item nav-link" id="nav-fish-tab" data-toggle="tab" href="#fish" role="tab" aria-controls="fish" aria-selected="false">Dəniz məhsulları</a>
                 <a class="nav-item nav-link" id="nav-drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">İçkilər</a>
                 <a class="nav-item nav-link" id="nav-sweets-tab" data-toggle="tab" href="#sweets" role="tab" aria-controls="sweets" aria-selected="false">Şirniyyalar</a>
                 <a class="nav-item nav-link" id="nav-ice-cream-tab" data-toggle="tab" href="#ice-cream" role="tab" aria-controls="ice-cream" aria-selected="false">Dondurmalar</a>
-                <a class="nav-item nav-link" id="nav-salad-tab" data-toggle="tab" href="#salad" role="tab" aria-controls="salad" aria-selected="false">Salatlar</a>
              </div>
-            </nav>
-           </div>
-          </nav>
+           </nav>
+          </div>
+        </nav>
        </div>
       </div>
      </div>
      <div class="restaurant-menu-content">
-      <div class="container">
+      <div class="container text-center">
         <div class="tab-content" id="nav-tabContent">
          <div class="tab-pane fade show active" id="meal" role="tabpanel" aria-labelledby="nav-meal-tab">
            <div class="row" id="meal-images">
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.meal.jpeg" width="350px" height="250px" alt="meal image 1">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                     <img src="images/image.meal.jpeg" width="350px" height="250px" alt=" image meal">
+                     <div class="card-body">
+                      <p class="card-text">Meal</p>
+                     </div>
                    </div>
                  </div>
                </a>
@@ -207,102 +124,24 @@
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.meal1.jpeg" width="350px" height="250px" alt="meal image 2">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.meal1.jpeg" width="350px" height="250px" alt="meal image">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
+                  </div>
                  </div>
                </a>
              </div>
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.meal2.jpeg" width="350px" height="250px" alt="meal image 3">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.meal2.jpeg" width="350px" height="250px" alt="meal image">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.meal2.jpeg" width="350px" height="250px" alt="meal image 4">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.meal.jpeg" width="350px" height="250px" alt="meal image 5">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.meal1.jpeg" width="350px" height="250px" alt="meal image 6">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-         </div>
-         <div class="tab-pane fade" id="fish" role="tabpanel" aria-labelledby="nav-fish-tab">
-           <div class="row" id="fish-images">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.fish.jpeg" width="350px" height="250px" alt="image fish 1">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.fish1.jpeg" width="350px" height="250px" alt="image fish 2">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.fish2.jpeg" width="350px" height="250px" alt="image fish 3">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
+                  </div>
                  </div>
                </a>
              </div>
@@ -311,11 +150,11 @@
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.fish2.jpeg" width="350px" height="250px" alt="image fish 4">
+                   <div class="card">
+                    <img src="images/image.meal2.jpeg" width="350px" height="250px" alt="meal image">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                     </div>
-                    <div class="title">
-                     <h2>...</h2>
                    </div>
                  </div>
                </a>
@@ -323,258 +162,24 @@
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.fish.jpeg" width="350px" height="250px" alt="image fish 5">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.meal.jpeg" width="350px" height="250px" alt="meal image">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
+                  </div>
                  </div>
                </a>
              </div>
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.fish1.jpeg" width="350px" height="250px" alt="image fish 6">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.meal1.jpeg" width="350px" height="250px" alt="meal image">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-         </div>
-         <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="nav-drinks-tab">
-           <div class="row" id="drinks-images">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.drinks.jpeg" width="350px" height="250px" alt="image drinks 1">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.drinks1.jpeg" width="350px" height="250px" alt="image drinks 2">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.drinks2.jpeg" width="350px" height="250px" alt="image drinks 3">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.drinks2.jpeg" width="350px" height="250px" alt="image drinks 4">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.drinks.jpeg" width="350px" height="250px" alt="image drinks 5">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.drinks1.jpeg" width="350px" height="250px" alt="image drinks 6">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-         </div>
-         <div class="tab-pane fade" id="sweets" role="tabpanel" aria-labelledby="nav-sweets-tab">
-           <div class="row" id="sweets-images">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.sweets.jpeg" width="350px" height="250px" alt="image sweets 1">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.sweets1.jpeg" width="350px" height="250px" alt="image sweets 2">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.sweets2.jpeg" width="350px" height="250px" alt="image sweets 3">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.sweets2.jpeg" width="350px" height="250px" alt="image sweets 4">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.sweets.jpeg" width="350px" height="250px" alt="image sweets 5">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.sweets1.jpeg" width="350px" height="250px" alt="image sweets 6">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-         </div>
-         <div class="tab-pane fade" id="ice-cream" role="tabpanel" aria-labelledby="nav-ice-cream-tab">
-           <div class="row" id="ice-cream-images">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.icecream.jpeg" width="350px" height="250px" alt="image ice-cream 1">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.icecream1.jpeg" width="350px" height="250px" alt="image ice-cream 2">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.icecream2.jpeg" width="350px" height="250px" alt="image ice-cream 3">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-           </div>
-           <div class="row">
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.icecream2.jpeg" width="350px" height="250px" alt="image ice-cream 4">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.icecream.jpeg" width="350px" height="250px" alt="image ice-cream 5">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
-                 </div>
-               </a>
-             </div>
-             <div class="col-4">
-               <a href="#">
-                 <div class="project">
-                   <div class="image">
-                    <img src="images/image.icecream1.jpeg" width="350px" height="250px" alt="image ice-cream 6">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
-                   </div>
+                  </div>
                  </div>
                </a>
              </div>
@@ -585,36 +190,36 @@
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.salad.jpeg" width="350px" height="250px" alt=" image salad 1">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.salad.jpeg" width="350px" height="250px" alt=" image salad">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
+                  </div>
                  </div>
                </a>
              </div>
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.salad1.jpeg" width="350px" height="250px" alt="image salad 2">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.salad1.jpeg" width="350px" height="250px" alt="image salad">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
+                  </div>
                  </div>
                </a>
              </div>
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.salad2.jpeg" width="350px" height="250px" alt="image salad 3">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.salad2.jpeg" width="350px" height="250px" alt="image salad">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
+                  </div>
                  </div>
                </a>
              </div>
@@ -623,11 +228,297 @@
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.salad2.jpeg" width="350px" height="250px" alt="image salad 4">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.salad2.jpeg" width="350px" height="250px" alt="image salad">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.salad.jpeg" width="350px" height="250px" alt="image salad">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.salad1.jpeg" width="350px" height="250px" alt="image salad">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+         </div>
+         <div class="tab-pane fade" id="fish" role="tabpanel" aria-labelledby="nav-fish-tab">
+           <div class="row" id="fish-images">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.fish.jpeg" width="350px" height="250px" alt="image fish">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.fish1.jpeg" width="350px" height="250px" alt="image fish">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.fish2.jpeg" width="350px" height="250px" alt="image fish">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.fish2.jpeg" width="350px" height="250px" alt="image fish">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.fish.jpeg" width="350px" height="250px" alt="image fish">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.fish1.jpeg" width="350px" height="250px" alt="image fish">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+         </div>
+         <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="nav-drinks-tab">
+           <div class="row" id="drinks-images">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.drinks.jpeg" width="350px" height="250px" alt="image drinks">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.drinks1.jpeg" width="350px" height="250px" alt="image drinks">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.drinks2.jpeg" width="350px" height="250px" alt="image drinks">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.drinks2.jpeg" width="350px" height="250px" alt="image drinks">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.drinks.jpeg" width="350px" height="250px" alt="image drinks">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.drinks1.jpeg" width="350px" height="250px" alt="image drinks">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+         </div>
+         <div class="tab-pane fade" id="sweets" role="tabpanel" aria-labelledby="nav-sweets-tab">
+           <div class="row" id="sweets-images">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.sweets.jpeg" width="350px" height="250px" alt="image sweets">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.sweets1.jpeg" width="350px" height="250px" alt="image sweets">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.sweets2.jpeg" width="350px" height="250px" alt="image sweets">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.sweets2.jpeg" width="350px" height="250px" alt="image sweets">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.sweets.jpeg" width="350px" height="250px" alt="image sweets">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.sweets1.jpeg" width="350px" height="250px" alt="image sweets">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+         </div>
+         <div class="tab-pane fade" id="ice-cream" role="tabpanel" aria-labelledby="nav-ice-cream-tab">
+           <div class="row" id="ice-cream-images">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.icecream.jpeg" width="350px" height="250px" alt="image ice-cream">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.icecream1.jpeg" width="350px" height="250px" alt="image ice-cream">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
                    </div>
                  </div>
                </a>
@@ -635,24 +526,50 @@
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.salad.jpeg" width="350px" height="250px" alt="image salad 5">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.icecream2.jpeg" width="350px" height="250px" alt="image ice-cream">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.icecream2.jpeg" width="350px" height="250px" alt="image ice-cream">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
                  </div>
                </a>
              </div>
              <div class="col-4">
                <a href="#">
                  <div class="project">
-                   <div class="image">
-                    <img src="images/image.salad1.jpeg" width="350px" height="250px" alt="image salad 6">
-                    </div>
-                    <div class="title">
-                     <h2>...</h2>
+                   <div class="card">
+                    <img src="images/image.icecream.jpeg" width="350px" height="250px" alt="image ice-cream">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
                    </div>
+                  </div>
+                 </div>
+               </a>
+             </div>
+             <div class="col-4">
+               <a href="#">
+                 <div class="project">
+                   <div class="card">
+                    <img src="images/image.icecream1.jpeg" width="350px" height="250px" alt="image ice-cream">
+                    <div class="card-body">
+                     <p class="card-text">Meal</p>
+                   </div>
+                  </div>
                  </div>
                </a>
              </div>
@@ -662,8 +579,115 @@
        </div>
      </div>
      </div>
-    </div>
+     <div id="adress">
+        <div class="adress-map">
+          <div class="row">
+            <div class="col-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.566479821574!2d49.842600315256384!3d40.37413597937003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307daf022c6f8d%3A0x3b9644d696276f1c!2zTml6YW1pIEvDvMOnyZlzaSwgQmFrxLEsIEF6yZlyYmF5Y2Fu!5e0!3m2!1saz!2s!4v1588970413059!5m2!1saz!2s" width="750" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-6">
+              <div class="adress-content">
+                <h1>RESTORAN.AZ</h1>
+                <br><br>
+                <p>Bakı.,Nizami küç.</p>
+                <br>
+                <p>Hər gün :
+                   09:00 - 23:00</p>
+                <br><br>
+                <button id="btn1" type="button" class="btn btn-warning" name="button">İndi rezerv et</button>
+                <button id="btn2" type="button" class="btn btn-warning" name="button">Bizimlə əlaqə</button>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div id="aboutUs">
+           <div class="container text-center">
+             <div class="row text-center">
+               <h1>HAQQIMIZDA</h1>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+               </p>
+             </div>
+             <div class="row">
+               <div class="col-4">
+                  <a href="#">
+                    <div class="">
+                       <i class="fas fa-map-marked-alt fa-3x"></i>
+                     <div class="content">
+                        <p>Bakı <br>
+                          Nizami küç.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+               </div>
+               <div class="col-4">
+                  <a href="#">
+                    <div class="">
+                       <i class="fas fa-phone-alt  fa-3x"></i>
+                     <div class="content">
+                        <p> (+994 12) 345 67 89<br>
+                          info@restoran.az
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+               </div>
+               <div class="col-4">
+                  <a href="#">
+                    <div class="">
+                      <i class="fas fa-clock fa-3x"></i>
+                     <div class="content">
+                        <p>İş saatımız: <br>
+                          09:00 - 23:00
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div id="footer">
+           <div class="row text-center">
+             <div class="col-9">
+               <br><br>
+               <p>Bakı.,Nizami küç.</p>
+               <p>(+994 12) 345 67 89</p>
+               <p>info@restoran.az</p>
+               <div class="social-icons">
+                 <ul>
+                   <li class="pl-5">
+                     <a href="#" class="fab fa-twitter fa-lg"></a>
+                   </li>
+                   <li class="pl-3">
+                     <a href="#" class="fab fa-facebook fa-lg"></a>
+                   </li>
+                   <li class="pl-3">
+                     <a href="#" class="fab fa-instagram fa-lg"></a>
+                   </li>
+                   <li class="pl-3">
+                     <a href="#" class="fab fa-youtube fa-lg"></a>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+             <div class="col-3">
+               <a class="weatherwidget-io" href="https://forecast7.com/en/40d4149d87/baku/" data-label_1="BAKU" data-label_2="WEATHER" data-theme="pool_table" >BAKU WEATHER</a>
+               <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+               </script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
   </body>
 </html>
