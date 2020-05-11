@@ -20,17 +20,6 @@ ul {
   margin-left:15.5%;
   background-color: lightgrey;
 }
-.pos-f-t {
-  color: black;
-}
-#restaurant {
-  margin-right: 12%;
-  margin-left: 12%;
-}
-#main-nav ul {
-  text-align: left;
-  justify-content:flex-start;
-}
 /*Main*/
 #main h1{
   font-size: 50px;
@@ -41,49 +30,16 @@ ul {
   margin-bottom: 80px !important;
   font-size: 40px;
 }
-/*.carousel-caption*/ .btn{
+.animate__animated {
+  --animate-duration: 2s;
+}
+ .btn{
   margin-bottom:40px;
   width: 250px;
   height: 60px;
   border-radius: 10px;
   font-size: 20px;
   font-weight: 600;
-}
-
-/*aboutUs*/
-#aboutUs {
-  padding-top: 20px;
-  padding-bottom: 80px;
-  background-color: #f8f9fa;
-}
-#aboutUs h1 {
-  margin:auto;
-  margin-bottom: 40px;
-}
-#aboutUs p {
-  margin-bottom: 30px;
-}
-#aboutUs .fas {
-  color: #4B4638;
-}
-#aboutUs a {
-  text-decoration: none;
-  color: black;
-}
-/*Adress*/
-.adress-content {
-  margin-left: 70px;
-  padding-top: 70px;
-}
-#adress h1 {
-  font-weight: bold;
-}
-#adress p {
-  font-size: 21px;
-  font-weight: 400;
-}
-#btn2 {
-  margin-left: 70px;
 }
 /* Menu*/
 #restaurant-menu {
@@ -127,8 +83,54 @@ margin-bottom: 40px;
 .restaurant-menu-content {
   background-color:#f8f9fa;
 }
+/*aboutUs*/
+#aboutUs {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  background-color: #f8f9fa;
+}
+#aboutUs h1 {
+  margin:auto;
+  margin-bottom: 25px;
+}
+#aboutUs p {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.circle {
+  width: 90px;
+  height: 90px;
+  border:3px solid #068b78;
+  border-radius: 45px;
+  line-height:105px;
+  margin: auto;
+  margin-top: 20px;
+}
+#aboutUs .fas {
+  color: #068b78;
+}
+#aboutUs a {
+  text-decoration: none;
+  color: black;
+}
+/*Adress*/
+.adress-content {
+  margin-left: 70px;
+  padding-top: 70px;
+}
+#adress h1 {
+  font-weight: bold;
+}
+#adress p {
+  font-size: 21px;
+  font-weight: 400;
+}
+#btn2 {
+  margin-left: 70px;
+}
+
 /*Footer*/
 #footer{
-
   padding-top: -30px;
 }
