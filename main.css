@@ -1,4 +1,5 @@
 
+
 /*Header */
 #header {
 background-color: #1E8449;
@@ -66,16 +67,42 @@ ul {
   padding-top: 60px;
   padding-bottom: 20px;
 }
-.project{
-margin-bottom: 40px;
+/*card*/
+.card {
+  width: 352px;
+  height: 340px;
+  margin-bottom: 50px;
 }
+
+.card-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.back-content {
+  text-align: center;
+  margin-top:30px;
+}
+.card-inner {
+  position: relative;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.card-back,.card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+/**/
 .restaurant-menu-content a{
   text-decoration: none;
 }
-.restaurant-menu-content .card{
-  width: 352px;
-}
-.restaurant-menu-content p{
+.restaurant-menu-content p {
   font-size: 18px;
   font-weight: 600;
   color: black;
@@ -117,7 +144,7 @@ margin-bottom: 40px;
 /*Adress*/
 .adress-content {
   margin-left: 70px;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 #adress h1 {
   font-weight: bold;
@@ -126,7 +153,7 @@ margin-bottom: 40px;
   font-size: 21px;
   font-weight: 400;
 }
-#btn2 {
+#btn3 {
   margin-left: 70px;
 }
 
