@@ -1,5 +1,7 @@
-
-
+ body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /*Header */
 #header {
 background-color: #1E8449;
@@ -16,6 +18,13 @@ ul {
   color: white;
   font-size: 19px;
   font-weight: 400;
+}
+#nav-menu {
+  margin-left: 52%;
+}
+#nav-menu a {
+  padding-left: 8px;
+
 }
 .navbar-toggler {
   margin-left:15.5%;
@@ -48,8 +57,8 @@ ul {
   padding-bottom: 40px;
   background-color: #f8f9fa;
 }
-#menu-header{
-  margin-left: 690px;
+#menu-header h1 {
+  margin: auto;
   padding-bottom: 10px;
 }
 .restaurant-menu-top {
@@ -61,7 +70,8 @@ ul {
   font-weight: 700;
 }
 #menu {
-  padding-left:70px;
+  padding-left: 100px;
+
 }
 .tab-pane {
   padding-top: 60px;
@@ -110,6 +120,10 @@ ul {
 .restaurant-menu-content {
   background-color:#f8f9fa;
 }
+.restaurant-menu-content i {
+  color : #068b78;
+
+}
 /*aboutUs*/
 #aboutUs {
   padding-top: 20px;
@@ -154,10 +168,29 @@ ul {
   font-weight: 400;
 }
 #btn3 {
-  margin-left: 70px;
+  margin-left: 10%;
 }
 
 /*Footer*/
-#footer{
-  padding-top: -30px;
+#footer p {
+  font-size: 21px;
+  font-weight: 400;
 }
+#footer a {
+  text-decoration: none;
+  color: #3f3f44;
+}
+.contact {
+  margin-left: 33%;
+}
+.social-icons {
+  margin-left: 29%;
+}
+/*Media Queries*/
+@media (max-width: 575.98px) { }
+
+
+@media (max-width: 767.98px) { }
+
+
+@media (max-width: 991.98px) {  }
