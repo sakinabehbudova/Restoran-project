@@ -37,7 +37,9 @@ ul {
   margin-bottom: 80px;
   font-size: 40px;
 }
-
+#firstImage{
+    display:none !important;
+}
 .animate__animated {
   --animate-duration: 2s;
 }
@@ -68,7 +70,7 @@ ul {
   font-weight: 700;
 }
 #menu {
-  padding-left: 100px;
+  padding-left: 120px;
 
 }
 .tab-pane {
@@ -253,12 +255,14 @@ ul {
    margin-left: 80px;
    margin-top: -20px;
  }
- .adress-content p,button {
+ .adress-content button {
    margin-left: 80px;
  }
  #adress p {
-   font-size: 21px;
+   font-size: 19px;
    font-weight: 400;
+   margin-left: 85px;
+
  }
  #btn3 {
    margin-left: 20.3%;
@@ -283,9 +287,20 @@ ul {
  }
 }
 @media (max-width: 575.98px) { }
+ #menu{
+   margin-left: 26px;
+ }
+ /*#menu img {
 
-
+ } */
 @media (max-width: 767.98px) {
+
+    #myCarousel {
+        display:none !important;
+}
+#firstImage{
+    display:block !important;
+}
   #nav-menu {
     margin-left: 20% !important;
   }
@@ -304,48 +319,49 @@ ul {
   #menu {
     margin-left: -5px !important;
   }
-  .card {
-    width: 202px !important;
-    height: 250px !important;
-    margin-bottom: 50px;
+ .card {
+  width: 202px !important;
+  height: 250px !important;
+  margin-bottom: 50px;
   }
- #restaurant-menu img {
+  #restaurant-menu img {
    width: 200px !important;
    height: 180px !important;
  }
- #restaurant-menu .row {
+  #restaurant-menu .row {
    margin-left: -85px !important;
    margin-right: -85px !important;
  }
-.back-content p{
+ .back-content p{
   font-size: 13px;
 }
-#restaurant-map iframe {
+ #restaurant-map iframe {
   width :745px !important;
   height : 550px;
 }
-#adress {
+ #adress {
   padding-bottom: 30px;
 }
-#adress h1 {
-margin-left: 180px;
+ #adress h1 {
+  margin-left: 180px;
 /*margin-bottom: -20px; */
 }
-#btn2 {
+ #btn2 {
   margin-left: 10px;
 }
-.adress-content p,button {
+ .adress-content p,button {
   margin-left: 0px;
   margin-top: -20px;
 }
-#adress p {
+ #adress p {
   font-size: 21px;
   font-weight: 400;
+  margin-left: 15px;
 }
-#btn3 {
+ #btn3 {
   margin-left: 20.3%;
 }
-.contact {
+ .contact {
   margin-left: 15%;
   margin-right: -25%;
 }
