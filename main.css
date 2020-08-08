@@ -19,6 +19,13 @@ ul {
   font-size: 19px;
   font-weight: 400;
 }
+#nav-menu .active{
+color: #DAA520;
+}
+.item-link:hover{
+  color: #DAA520;
+  transition-duration: 0.5s;
+}
 #nav-menu {
   margin-left: 57%;
 }

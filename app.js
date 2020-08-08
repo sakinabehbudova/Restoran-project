@@ -9,17 +9,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
-  $('.item').mouseover(function () {
-  $(this).css("color","#DAA520");
-  $(this).css("transition-duration","0.5s");
-})
-
-  $('.item').mouseout(function () {
-  $(this).css("color","white");
-  $(this).css("transition-duration","0.5s");
-  })
-
   $('.btn').mouseover(function () {
   $(this).css("color","lightgrey");
   $(this).css("transition-duration","0.5s");
@@ -29,3 +18,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   $(this).css("color","black");
   $(this).css("transition-duration","0.5s");
 })
+
+$(document).ready(function () {
+      $('.item-link').click(function () {
+        $('.item-link.active').removeClass("active");
+        $(this).addClass("active");
+      });
+    });
